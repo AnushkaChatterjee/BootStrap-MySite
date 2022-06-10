@@ -1,0 +1,286 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+.exp{
+  font-family: "Montserrat-Bold";
+  color: #DAE5D0;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  padding: 35px 30px 5px;
+}
+
+.exp2{
+  font-family: "Montserrat-Bold";
+  color: #DAE5D0;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  padding: 35px 30px 5px;
+  color:  #15133c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p{
+  color: #8f8f8f;
+  /* text-align: left; */
+}
+.c-content {
+  color: #8f8f8f;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 1.5;
+  padding-bottom: 25px;
+  /* height: 80%; */
+  /* width: 70%; */
+
+  text-align: center;
+}
+
+.section-heading {
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 1% 2%;
+}
+
+/* Sections */
+.back-img{
+  height: 37rem;
+  width: auto;
+  /* object-fit: fill; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.colored-section {
+  /* background-image: url("images/rish.jfif");
+  background-size: 100% 100%; */
+  background-color: #EAF6F6;
+  /* color: #008080; */
+}
+
+.white-section {
+  background-color: #15133c;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  margin-top: 2px;
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  margin-top: 2px;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight:200;
+  color:#fac213;
+}
+
+.nav-item {
+  padding: 2px 8px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  padding-left: 78%;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #243a73;
+  color: #fac213;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 1% 2% 7%;
+  margin-bottom: 10px;
+}
+
+/* Title Image */
+
+/* .title-image {
+
+  width: 100%;
+  height: 80%;
+  /* transform: rotate(0deg); */
+  /* position: absolute; */
+  /* right: 30%; */
+
+
+/* .colored-section .top{ */
+  /* background-image: url("images/rish.jfif");
+  background-size: 100% 100%;
+  background-color: #EAF6F6;
+  display: block;
+} */
+/* Features Section */
+
+#features {
+  position: relative;
+}
+#features.white-section{
+  /* height: 38rem; */
+  position: relative;
+}
+.images{
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 50%;
+  width: 90%;
+  text-align: left;
+}
+
+.feature-title {
+  color: #fff;
+  font-size: 2.5rem;
+  margin-top: 15px;
+  text-align: left;
+
+}
+
+.feature-box {
+  padding: 20px;
+  text-align: left;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #EAF6F6;
+  position: relative;
+
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-top: 50px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #EAF6F6;
+  padding-top: 7%;
+  padding-bottom: 3%;
+  position: relative;
+
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 30px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 50px;
+  position: relative;
+}
+
+.price-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.price-content{
+  font-size: 20px;
+  padding-bottom: 0px;
+  line-height: 1;
+  text-align: left;
+}
+
+.pricing-column {
+  padding: 3% 1% 0%;
+}
+
+
+/* CTA Section */
+
+#cta{
+  height:25rem;
+}
+/* Footer Section */
+
+/* .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #0d4a8dfc no-repeat center center;
+    background-size: 100% 100%;
+} */
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.social-icon {
+  margin: 20px 10px;
+  color: #fff;
+}
+
+@media (max-width: 1028px) {
+
+  body{
+  text-align: center;
+  }
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
